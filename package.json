@@ -1,0 +1,13 @@
+{
+  "name": "sunsupply",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix /client",
+    "server": "npm start --prefix /server",
+    "start": "npm client & npm server"
+  },
+  "author": "",
+  "license": "ISC"
+}
