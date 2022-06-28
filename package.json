@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "client": "npm start --prefix /client",
-    "server": "npm start --prefix /server",
-    "start": "npm client & npm server"
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "start": "npm run client & npm run server"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
 }
