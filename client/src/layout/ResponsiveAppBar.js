@@ -11,6 +11,7 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
+import WbTwilightIcon from "@mui/icons-material/WbTwilight";
 
 const pages = ["Projects", "Packages", "Database", "Suppliers"];
 const settings = ["Account", "Logout"];
@@ -36,9 +37,10 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: "rgb(30,30,30)" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
+          <WbTwilightIcon sx={{ mr: "10px" }} />
           <Typography
             variant="h6"
             noWrap
